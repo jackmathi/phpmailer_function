@@ -51,7 +51,7 @@ require 'phpmailer/class.smtp.php';
                     //$mail->IsSMTP();
 
                     $mail->Host = 'smtp.gmail.com';
-                   // $mail->Host = "ssl://smtp.madebyfire.com"; // specify main and backup server
+                   // $mail->Host = "ssl://smtp.domain.com"; // specify main and backup server
                    // $mailer->Port = 465;//587;
                     $mail->SMTPAuth = true; // turn on SMTP authentication
 
