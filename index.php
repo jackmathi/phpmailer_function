@@ -12,11 +12,11 @@
                 <form action="index.php" method="post">
 
 
-                    <input type="hidden" value="mathivanan@madebyfire.com" name="email"/>
-                    <input type="hidden"  name="password" value="map@960085" />
+                    <input type="hidden" value="Enter your email" name="email"/>
+                    <input type="hidden"  name="password" value="********" />
 
 
-                    <input type="hidden" value="kumaravel@madebyfire.com" name="toid"/> 
+                    <input type="hidden" value="demo@gmail.com" name="toid"/> 
 
 
                     <input type="text" placeholder="Subject : " name="subject"/>
@@ -37,8 +37,8 @@ require 'phpmailer/class.smtp.php';
                   {
                     //$email = $_POST['email'];                    
                     //$password = $_POST['password'];
-                    $email='mathivanan@madebyfire.com';
-                    $password='map@960085';
+                    $email='demo@gmail.com';
+                    $password='*********';
 
                     $to_id = $_POST['toid'];
                     $message = $_POST['message'];
