@@ -65,9 +65,9 @@ require 'phpmailer/class.smtp.php';
                     //$mailer->SMTPSecure = 'tls';
 
 
-                    $mail->setFrom('jackmathi2016@gmail.com', 'First ');
+                    $mail->setFrom('sendmail@gmail.com', 'First ');
 
-                    $mail->addReplyTo('mathibsc20@gmail.com', 'Last');
+                    $mail->addReplyTo('replymail@gmail.com', 'Last');
 
                     $mail->addAddress($to_id);
 
